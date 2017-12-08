@@ -32,11 +32,6 @@ cd /var/lib/jenkins/
 ssh-keygen
 cat .ssh/id_rsa.pub
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhllgA2HD5jWuRLP6z2F7MU8mKLrAcn2KeUv6YiM8uI/DuMbWkClK3mJQzrDPu4qytHSKKHrDFlr2IG3AZV7gajs0iIRsUZ1WwsNvUozSrXHxHMqbPLkNtZtBkpbfEGEuu0Kvt1pm0IDjjr/IlG440ulyCEGcR2dMwlNl7Wq8mqKNF0BVsfTtnsZjmxdh8dzCcRIl+mOPN2KPSmetLBy3i9/ruzNp1N12GOOa05fAAVX/UCTpywd+R2fKCXxSIT44KVpp33Sw/oIVJrn9nQrMXVlUMo52RCbSiXowFwREZjdmCR9JJUMHszRek7dNcf7D0HEu9/nOO9YOCAAsM6k+3 jenkins@ip-172-31-37-61
-
 cat /var/lib/jenkins/secrets/initialAdminPassword
-eb0198039e254bc2a6a3dfc4bf98cfad
 
 exit
-
-sudo reboot
